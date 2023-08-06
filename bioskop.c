@@ -16,7 +16,7 @@ int main() {
     // Pilihan film, jam tayang, dan jumlah tiket
     int filmChoice, scheduleChoice, numTickets;
 
-    printf("Selamat datang di bioskop!\n");
+    printf("\n\nSelamat datang di bioskop!\n");
 
     do {
         printf("Pilih film yang ingin ditonton (0 untuk keluar):\n");
@@ -32,7 +32,7 @@ int main() {
         }
 
         if (filmChoice < 1 || filmChoice > 3) {
-            printf("Pilihan film tidak valid. Silakan coba lagi.\n");
+            printf("Pilihan film tidak valid. Silakan coba lagi.\n\n\n");
         }
     } while (filmChoice < 1 || filmChoice > 3);
 
@@ -45,7 +45,7 @@ int main() {
         scanf("%d", &scheduleChoice);
 
         if (scheduleChoice < 1 || scheduleChoice > 3) {
-            printf("Pilihan jam tayang tidak valid. Silakan coba lagi.\n");
+            printf("Pilihan jam tayang tidak valid. Silakan coba lagi.\n\n");
         }
     } while (scheduleChoice < 1 || scheduleChoice > 3);
 
